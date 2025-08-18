@@ -1,4 +1,4 @@
-# Repositório de Estudos PHP 💖
+# Repositório de Estudos PHP 
 
 Este repositório foi criado para organizar e documentar os exercícios e projetos desenvolvidos durante o 4º semestre da faculdade de **Análise e Desenvolvimento de Sistemas** do **UniSENAI**.
 
