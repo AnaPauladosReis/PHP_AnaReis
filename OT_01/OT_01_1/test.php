@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP_AnaReis</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -16,7 +13,7 @@
 
         <div class="php-section">
             <h2>Seção PHP - Exercícios Práticos:  ✨</h2>
-            <p>Em breve, a mágica do PHP vai acontecer aqui!</p>
+            <p>Em breve, a mágica do PHP vai acontecer aqui!' </p>
 			<p>(ノ°∀°)ノ⌒･*:.｡. .｡.:*･゜ﾟ･*☆</p>
             </div>
     </div>
