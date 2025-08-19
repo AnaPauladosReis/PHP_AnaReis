@@ -15,6 +15,15 @@
             <h2>Seção PHP - Exercícios Práticos:  ✨</h2>
             <p>Em breve, a mágica do PHP vai acontecer aqui!' </p>
 			<p>(ノ°∀°)ノ⌒･*:.｡. .｡.:*･゜ﾟ･*☆</p>
+
+            <h3>Exercícios Teóricos:</h3>
+            <p>1. Explique a diferença entre variáveis do tipo string e do tipo inteiro em PHP.
+                O php distingue difernetes tipos de valor que você pode pode armazenar em uma variável (como número e texto); isso é conhecido
+                <b>tipos de dados</b>🧮 </p>
+                <p>-uma parte de um texto de se chama <b>string</b>.</p>
+                <p>-um número sem parte decimal se chama <b>inteiro</b>.</p>
+
+            
             </div>
     </div>
 </body>
