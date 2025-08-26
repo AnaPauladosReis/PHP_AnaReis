@@ -1,11 +1,9 @@
-<?php 
-  /* 
-  Data: 26/08/2025
-  Nome: Ana Paula dos Reis
-  */
-  $nome = 'Ana Paula dos Reis';
-  $idade = 38;
-
+<?php
+$nutrition = [
+    'fat' => 12,
+    'sugar' => 51,
+    'salt' => 6.3, 
+];
 ?>
 
 <!DOCTYPE html>
@@ -23,14 +21,14 @@
 
         <div class="php-section">
             <h2>Seção PHP - Exercícios Práticos:  ✨</h2>
-           
+            <p>Em breve, a mágica do PHP vai acontecer aqui!' </p>
 			<p>(ノ°∀°)ノ⌒･*:.｡. .｡.:*･゜ﾟ･*☆</p>
-            <p>1. Crie uma variável para armazenar o seu nome e outra para a sua idade. Exiba essas
-            informações em uma frase.</p>
 
-            <h4>Olá meu nome é <?php echo $nome; ?> !! </h4>
-            <h4>Eu tenho <?php echo $idade; ?> anos.</h4>
-            
+            <p>Nutrition per 100gr</p>
+            <p>Fat: <?php echo $nutrition['fat']; ?>%</p>
+            <p>SUgar: <?php echo $nutrition['sugar']; ?>%</p>
+            <p>Salt: <?php echo $nutrition['salt']; ?>%</p>
+          
             </div>
     </div>
 </body>
