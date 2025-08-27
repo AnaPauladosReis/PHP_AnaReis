@@ -1,15 +1,7 @@
-<?php
-$nutrition = [
-    'fat' => 12,
-    'sugar' => 51,
-    'salt' => 6.3, 
-];
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>PHP_AnaReis</title>
+    <title>PHP - Par ou Ímpar</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,16 +12,20 @@ $nutrition = [
         <img src="https://images.ctfassets.net/s600jj41gsex/eihtTelYKrOnMQs1CaGQn/2b80f54539e12e93587c6878776cce28/How_to_save_TinyMCE_content_to_a_database.png?w=768&q=80&fit=scale" alt="Personagem fofo estilo Kawaii">
 
         <div class="php-section">
-            <h2>Seção PHP - Exercícios Práticos:  ✨</h2>
-            <p>Em breve, a mágica do PHP vai acontecer aqui!' </p>
-			<p>(ノ°∀°)ノ⌒･*:.｡. .｡.:*･゜ﾟ･*☆</p>
+            <h2>Seção PHP - Exercícios Práticos: ✨</h2>
+            <p>Vamos verificar se um número é par ou ímpar!</p>
+            <p>(ノ°∀°)ノ⌒･*:.｡. .｡.:*･゜ﾟ･*☆</p>
 
-            <p>Nutrition per 100gr</p>
-            <p>Fat: <?php echo $nutrition['fat']; ?>%</p>
-            <p>SUgar: <?php echo $nutrition['sugar']; ?>%</p>
-            <p>Salt: <?php echo $nutrition['salt']; ?>%</p>
-          
-            </div>
+            <form method="POST" class="input-form">
+                <label for="number">Digite um número:</label>
+                <input type="number" id="number" name="number" required>
+                <button type="submit">Verificar</button>
+            </form>
+
+            <?php
+            include 'logic.php';
+            ?>
+        </div>
     </div>
 </body>
 </html>
